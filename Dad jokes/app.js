@@ -3,7 +3,6 @@ const jokeBtn = document.getElementById('jokeBtn')
 
 jokeBtn.addEventListener('click', generateJoke)
 
-
 var colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
 var i = 1;
 document.querySelectorAll('.btn').forEach(function(e) {
@@ -15,9 +14,7 @@ document.querySelectorAll('.btn').forEach(function(e) {
 			}
   })
 });
-
 generateJoke()
-
 async function generateJoke() {
   const config = {
     headers: {
